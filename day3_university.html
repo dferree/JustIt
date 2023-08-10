@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(33, 94, 248); color: antiquewhite;">
+    <fieldset style="width: 500px;">
+        <legend>Registration Details</legend>
+            <form action="" style="text-align:center; margin-bottom: 20px;">
+                <label for="university">University: </label> <input type="text" class="textbox">
+                <br>
+                <label for="institute">Institute:</label> <input type="text" class="textbox">
+                <br>
+                <label for="branch">Branch:</label>
+                <select name="branch" id="branch" class="textbox">
+                    <option value="">--select--</option>
+                </select>
+                <br>
+                <label for="degree">Degree:</label>
+                <input list="degree" name="degree" id="ss">
+                <datalist id="degree">
+                    <option value="--select--">--select--</option>
+                    <option value="computer"></option>
+                </datalist>
+                <input type="radio" id="degree" name="degree" style="margin-bottom: 20px;"><label for="degree" style="margin-bottom: 20px;">Pursuing</label>
+                <input type="radio" id="degree" name="degree"><label for="degree">Completed</label>
+                <br>
+                <label for="average_cpi" style="margin-bottom: 20px;">Average CPI:</label> <input type="number" id="average_cpi_upto" style="width: 20px;" style="margin-bottom: 20px;"><label for="average_cpi_upto">Upto</label> 
+                <input type="number" id="average_cpi_nth" style="width: 20px;" style="margin-bottom: 20px;"><label for="average_cpi_nth" style="margin-bottom: 20px;">Th semester</label>
+                <br>
+                <br>
+                <label for="experience" style="margin-bottom: 20px;">Experience:</label> <input type="number" id="experience"><label for="experience" style="margin-bottom: 20px;"> Years</label>
+                <br>
+                <br>
+                <label for="url">Your website or blog:</label> <input type="url" placeholder="https:">
+                <br>
+                <input type="submit">
+            </form>
+    </fieldset>
+</body>
+</html>
+
+<style>
+    .textbox{
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 20px;
+    }
+    
+</style>

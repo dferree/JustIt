@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- <h1 id="brand-title">Dan's Drippy Threads Store</h1> -->
+        <div>
+            <img src="/Media/logo.png" alt="brand logo" height="100px" width="100px">
+            <img src="/Media/brand_name.png" alt="brand name" width="700pc" height="100px">
+        </div>
+    </header>
+    <main>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xk1XfnPokWY" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+            <h2 class="header">Prices</h2>
+            <table>
+                <tr>
+                    <th class="table-header">Type of clothing</th>
+                    <th class="table-header">Price</th>
+                    <th class="table-header">Sizes available</th>
+                </tr>
+                <tr>
+                    <td class="table-data"><em>T-shirts:</em></td>
+                    <td>£45</td>
+                    <td>M, L, XL</td>
+                </tr>
+                <tr>
+                    <td class="table-data"><em>Trousers:</em></td>
+                    <td> £85</td>
+                    <td>S, L, XXL</td>
+                </tr>
+                <tr>
+                    <td class="table-data"><em>Shorts:</em></td>
+                    <td> £50 </td>
+                    <td> S, M, L</td>
+                </tr>
+                <tr>
+                    <td class="table-data"><em> Jackets:</em></td>
+                    <td> £120</td>
+                    <td>L, XL </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <fieldset style="width: 45pc;">
+                <legend>Order Form</legend>
+                <form autocomplete="on">
+                    <select name="" id="" placeholder="">
+                        <option value="">Select Clothing Item</option>
+                        <option value="">T-shirt</option>
+                        <option value="">Shorts</option>
+                        <option value="">Jackets</option>
+                        <option value="">Trousers</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" id="size" name="size"><label for="size">S </label>
+                    <input type="checkbox" id="size" name="size"><label for="size">M </label>
+                    <input type="checkbox" id="size" name="size"><label for="size">L </label>
+                    <input type="checkbox" id="size" name="size"><label for="size">XL </label>
+                    <br>
+                    <label for="date">Delivery date: </label><input type="date" id="date">
+                    <br>
+                    <label for="delivery_notes">Add delivery notes here:</label>
+                    <br>
+                    <textarea name="delivery_notes" id="delivery_notes" cols="30" rows="10" placeholder="Add delivery notes here"></textarea>
+                    <br>
+                    <input type="submit" style="background-color: green;"><input type="reset" style="background-color: red;">
+                </form>
+            </fieldset>
+        </div>
+    </main>
+</body>
+</html>
+
+<style>
+    .header{
+        color: rgb(79, 119, 249);
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: underline;
+    }
+    .table-header{
+        color: blue;
+        font-size: larger;
+    }
+    .table-data{
+        color: cadetblue;
+        font-size: large;
+        font-weight: bold;
+
+    }
+    #brand-title{
+        color: burlywood;
+        font-size: xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: underline;
+        text-decoration: overline;
+    }
+</style>

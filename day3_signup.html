@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="width: max-content;">
+        <form action="">
+            <table>
+                <thead>
+                    <tr><th>Sign Up</th></tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><label for="firstname">First Name</label></td>
+                        <td><input type="text" id="firstname" placeholder="Enter First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastname">Last Name</label></td>
+                        <td><input type="text" id="lastname" placeholder="Enter Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of Birth</label></td>
+                        <td><input type="date" id="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country</label></td>
+                        <td>
+                            <select name="country" id="country">
+                            <option value="" disabled selected>Select your option</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-Mail</label></td>
+                        <td><input type="email" id="email" placeholder="Enter E-mail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone</label></td>
+                        <td><input type="tel" id="phone" placeholder="Enter Phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="confpass">Confirm Password</label></td>
+                        <td><input type="password" id="confpass"></td>
+                    </tr>
+                    <tr><td></td>
+                        <td><input type="checkbox" required> I Agree to the Terms of use </td>
+                    </tr>
+                </tbody>
+                
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="button" value="Submit" style="background-color: green;"></td>
+                        <td><input type="button" value="Cancel" style="background-color: red;"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
